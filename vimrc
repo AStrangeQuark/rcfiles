@@ -14,4 +14,18 @@ set autowrite          " Automatically save before commands like :next and :make
 set hidden             " Hide buffers when they are abandoned
 set mouse=a            " Enable mouse usage (all modes)
 
+
+""" MISC
 set number " line numbers dammit
+
+""" TABS AND SPACES
+set tabstop=4
+set expandtab
+set shiftwidth=4
+
+
+""" COLORS
+" `se bg=dark` for short
+set background=dark    " Default is `light`
+highlight Visual term=reverse cterm=reverse
+
