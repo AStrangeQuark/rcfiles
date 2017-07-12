@@ -29,3 +29,10 @@ set shiftwidth=4
 set background=dark    " Default is `light`
 highlight Visual term=reverse cterm=reverse
 
+
+""" NAVIGATION
+:map [[ ?{<CR>w99[{
+:map ][ /}<CR>b99]}
+:map ]] j0[[%/{<CR>
+:map [] k$][%?}<CR>
+
